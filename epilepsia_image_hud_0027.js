@@ -453,7 +453,7 @@ body #app .hud-radmir-info { display: none; }
     left: 11.1620vh;
     bottom: 2.7778vh;
 }
-    #app .hud-radmir-radar__map { border-radius: 100%; border: 0.55vh solid #006312 !important } body #app .hud-radmir-radar__map { transition: .3s }
+    #app .hud-radmir-radar__map { border-radius: 100%; border: 0.55vh solid #003118 !important } body #app .hud-radmir-radar__map { transition: .3s }
     /* ------- Имущка ------- */
 body .info-card {
     background: #000000cd;
@@ -471,7 +471,7 @@ body .info-card .text {
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: linear-gradient(to bottom right, #086601, #003701) !important;
+    background: #003118 !important;
     border: 0.19vh solid #ffffff0d;
     border-radius: 2.5vh !important;
 }
@@ -622,24 +622,24 @@ body .window-table__item {
 
 body .window-table__item:before {
     border-radius: 3vh;
-    background: linear-gradient( linear-gradient(to bottom right, #086601, #003701), linear-gradient(to bottom right, #086601, #003701))
+    background: linear-gradient( #003118, #003118)
 }
 
 body .window-table__item:after {
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
     border-radius: 3vh;
 }
 
 body .window-table__item.selected {
     background: #ffffff;
-    color: linear-gradient(to bottom right, #086601, #003701);
+    color: #003118;
     border: .09vh solid #f4f1e100
 }
 
 body .window-button {
     border-radius: 2vh;
     color: #ffffff;
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
 }
 
 body .window-table__item:hover {
@@ -649,12 +649,12 @@ body .window-table__item:hover {
 
 body .window-table__item.selected:hover {
     background: #ffffff;
-    color: linear-gradient(to bottom right, #086601, #003701);
+    color: #003118;
     border: 0.09vh solid #f4f1e100;
 }
 
 #app .window-button:hover {
-    color: linear-gradient(to bottom right, #086601, #003701);
+    color: #003118;
     background: #fff
 }
 
@@ -672,7 +672,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Чат ------- */
 #app .radmir-chat-input__input {
-    background: linear-gradient(to bottom right, #086601, #003701) !important;
+    background: #003118 !important;
     border-radius: 11px !important
 }
 
@@ -710,7 +710,7 @@ body .window-table__item.selected:hover {
     border-radius: 10px;
     height: 613px;
     width: 1283px;
-    background: linear-gradient(to bottom right, #086601, #003701) !important
+    background: #003118 !important
 }
 
 #app .trade-items {
@@ -728,13 +728,13 @@ body .window-table__item.selected:hover {
 }
 
 #app .inventory-container__info__container {
-    background: linear-gradient(45deg, linear-gradient(to bottom right, #086601, #003701)) !important;
+    background: linear-gradient(45deg, #003118) !important;
 }
 
 #app .inventory-action__modal,
 #app .inventory-extra__container,
 #app .inventory-main {
-    background: linear-gradient(45deg, linear-gradient(to bottom right, #086601, #003701));
+    background: linear-gradient(45deg, #003118);
 }
 
 #app .inventory-main__after,
@@ -745,7 +745,7 @@ body .window-table__item.selected:hover {
 #app .inventory-extra__container,
 #app .inventory-main {
     padding: 2vh;
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
     border-radius: 1.1vh;
     border: 0;
 }
@@ -803,7 +803,7 @@ body .window-table__item.selected:hover {
 .inventory-container__info__container {
     border: none !important;
     padding-top: .8vh !important;
-    background: linear-gradient(to bottom right, #086601, #003701) !important;
+    background: #003118 !important;
     border-radius: 1.1vh !important;
     overflow: hidden;
 }
@@ -822,7 +822,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-action__modal {
     padding: 2vh;
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
     border-radius: 1.1vh;
 }
 
@@ -871,17 +871,17 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction__inner {
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
     border: .09vh solid #ffffffcd
 }
 
 #app .player-interaction-layer {
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
     border: none
 }
 
 #app .player-interaction__container {
-    background: linear-gradient(to bottom right, #086601, #003701);
+    background: #003118;
     border: none
 }
 
@@ -901,7 +901,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction-favorite {
-    background: linear-gradient(to bottom right, #086601, #003701)
+    background: #003118
 }
 
 #app .player-interaction-favorite:hover {
@@ -909,7 +909,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .container {
-    background: linear-gradient(to bottom right, #086601, #003701)
+    background: #003118
 }
 
 #app .vue3-slider .track-filled,
@@ -923,7 +923,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Меню заправки ------- */
 #app .fuel__container {
-    background: linear-gradient(to bottom right, #086601, #003701)
+    background: #003118
 }
 
 #app .fuel__button .text:before {
@@ -978,12 +978,12 @@ body .window-table__item.selected:hover {
 .fuel__class-col:hover {
     background: #fff !important;
     box-shadow: 0 12px 22px #ffffff14 !important;
-    color: linear-gradient(to bottom right, #086601, #003701) !important
+    color: #003118 !important
 }
 
 #app .fuel__button {
     background: linear-gradient(185.93deg, #fff -22.13%, #e6e6e6 122.51%) !important;
-    color: linear-gradient(to bottom right, #086601, #003701) !important
+    color: #003118 !important
 }
 
 #app .fuel__button:hover {
